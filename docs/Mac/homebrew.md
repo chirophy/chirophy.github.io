@@ -2,9 +2,7 @@
 sidebar_position: 1
 ---
 
-# SSH
-
-## ./ssh密钥
+# Homebrew相关  
 
 ## Continue
 :::tip 
@@ -12,4 +10,3 @@ sidebar_position: 1
 🍹当前文档正在制作中...
 
 :::
-

@@ -75,18 +75,18 @@ const config = {
           {
             //跳转页面
             to: '/docs/home',
-            label: 'Wiki',
+            label: '📘Wiki',
             position: 'right'
           },
           {
             //跳转页面
             to: '/blog/welcome',
-            label: 'Blog',
+            label: '🌈Blog',
             position: 'right'
           },
           {
             href: 'https://github.com/chirophy',
-            label: 'GitHub',
+            label: '🚀GitHub',
             position: 'right',
           },
         ],
@@ -111,11 +111,11 @@ const config = {
             title: '友链',
             items: [
               {
-                label: '主页',
+                label: '🏠主页',
                 href: 'https://chirophy.online',
               },
               {
-                label: '线线线',
+                label: '3️⃣线线线',
                 href: 'https://wiki.qc47.net/',
               },
               /*{
@@ -136,12 +136,11 @@ const config = {
                 to: '/blog',
               },*/
               {
-                label:'ZSC常用网站',
-                //href:'https://wiki.chirophy.online/zsclinks'
+                label:'👍ZSC常用网站',
                 to: '/zsclinks'
             },
               {
-                  label:'NextCloud',
+                  label:'💻NextCloud',
                   href:'http://n.chirophy.online'
               },
               {

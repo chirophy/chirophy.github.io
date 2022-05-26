@@ -4,22 +4,22 @@ sidebar_position: 1
 
 # 教程简介
 
-让我们**在不到5分钟的时间内**发现 **Docusaurus**.
+让我们 **在不到5分钟的时间内** 学会 **Docusaurus**.
 
 ## 入门
 
 从**创建一个新的网站**开始.
 
-或者通过 **[docusaurus.new](https://docusaurus.new)立即尝试Docusaurus**.
+或者通过 **[docusaurus.new](https://docusaurus.new) 立即尝试Docusaurus**.
 
 ### 你将需要
 
-- [Node.js](https://nodejs.org/en/download/) version 14 or above:
+- [Node.js](https://nodejs.org/en/download/) 14.0及以上版本:
   - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
 
-## Generate a new site
+## 生成一个新网站
 
-Generate a new Docusaurus site using the **classic template**.
+使用 **classic template** 生成一个新网站.
 
 The classic template will automatically be added to your project after you run the command:
 
@@ -31,9 +31,9 @@ You can type this command into Command Prompt, Powershell, Terminal, or any othe
 
 The command also installs all necessary dependencies you need to run Docusaurus.
 
-## Start your site
+## 开始你的网站
 
-Run the development server:
+运行开发服务器:
 
 ```bash
 cd my-website
