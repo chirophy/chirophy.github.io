@@ -66,11 +66,17 @@ const config = {
           src: 'img/shiro.png',
         },
         items: [
-          {
+          /*{
             type: 'doc',
             docId: 'intro',
             position: 'right',
             label: 'Docusaurus指南',
+          },*/
+          {
+            //跳转页面
+            to: '/docs/home',
+            label: 'Wiki',
+            position: 'right'
           },
           {
             //跳转页面
@@ -92,8 +98,12 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Docusaurus指南',
-                to: '/docs/intro',
+                label: 'Docusaurus教程',
+                to: '/docs/category/docusaurus教程',
+              },
+              {
+                label: 'Linux',
+                to: '/docs/category/linux',
               },
             ],
           },

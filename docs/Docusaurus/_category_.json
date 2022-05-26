@@ -1,0 +1,8 @@
+{
+  "label": "Docusaurus教程",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Docusaurus教程"
+  }
+}

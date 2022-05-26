@@ -1,6 +1,6 @@
 {
-  "label": "进阶教学",
-  "position": 4,
+  "label": "Linux",
+  "position": 5,
   "link": {
     "type": "generated-index"
   }
