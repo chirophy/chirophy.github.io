@@ -43,6 +43,10 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          blogTitle: 'ChiroPhy’s blog!',
+          blogDescription: '吐槽槽~',
+          blogSidebarTitle: '近况',
+          //postsPerPage: 'ALL',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           //editUrl:
@@ -58,7 +62,15 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      //hideableSidebar: true,
+      //新加的侧边栏收缩
+      docs: {
+        sidebar: {
+          hideable: true,
+        },
+      },
+      metadata: [{name: 'keywords', content: 'chirophy'}],
+
+
       navbar: {
         title: '奇奇怪怪的Wiki',
         logo: {

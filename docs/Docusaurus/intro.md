@@ -2,17 +2,17 @@
 sidebar_position: 1
 ---
 
-# 教程简介
+# 简介
 
-让我们 **在不到5分钟的时间内** 学会 **Docusaurus**.
+让我们**在不到5分钟的时间内**了解**Docusaurus**.
 
-## 入门
+## 快速入门
 
 从**创建一个新的网站**开始.
 
-或者通过 **[docusaurus.new](https://docusaurus.new) 立即尝试Docusaurus**.
+或者通过 **[docusaurus.new](https://docusaurus.new) 立即体验Docusaurus!**.
 
-### 你将需要
+### 环境要求
 
 - [Node.js](https://nodejs.org/en/download/) 14.0及以上版本:
   - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
@@ -31,9 +31,9 @@ You can type this command into Command Prompt, Powershell, Terminal, or any othe
 
 The command also installs all necessary dependencies you need to run Docusaurus.
 
-## 开始你的网站
+## 启动
 
-运行开发服务器:
+启动网站:
 
 ```bash
 cd my-website

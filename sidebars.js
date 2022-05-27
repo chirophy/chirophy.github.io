@@ -28,7 +28,14 @@ const sidebars = {
       items: ['hello'],
     },
   ],
-   */
+  
+  myLinksSidebar: [
+    {
+      type: 'link',
+      label: ' ', // The link label
+      href: 'https://www.elpwc.com/eldenringmap/', 
+    }
+  ], */
 };
 
 module.exports = sidebars;
