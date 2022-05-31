@@ -136,14 +136,6 @@ const config = {
                 label:'📝汉语反向词典',
                 href: 'https://wantwords.net',
               }
-              /*{
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },*/
             ],
           },
           {
