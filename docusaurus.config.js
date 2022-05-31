@@ -36,6 +36,8 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          //routeBasePath: "/",
+          //path: "/docs",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           //editUrl:
@@ -130,6 +132,10 @@ const config = {
                 label: '3️⃣线线线',
                 href: 'https://wiki.qc47.net/',
               },
+              {
+                label:'📝汉语反向词典',
+                href: 'https://wantwords.net',
+              }
               /*{
                 label: 'Discord',
                 href: 'https://discordapp.com/invite/docusaurus',
