@@ -93,7 +93,7 @@ docker exec -it zt zerotier-cli listnetworks
 
 # 会显示你的IP地址
 ```
-**注：**在[ZeroTier Central](https://my.zerotier.com/network/)页面的 `Members` 项中并不会显示出相关授权信息，但确实已连上！
+**注：**在[ZeroTier Central](https://my.zerotier.com/)页面的 `Members` 项中并不会显示出相关授权信息，但确实已连上！
 
 4. 显示正在运行的容器(可选项)
 ```bash

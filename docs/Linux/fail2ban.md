@@ -12,7 +12,7 @@ sidebar_position: 2
 从早到晚一直被扫  
 然后就赶快来补上fail2ban  
 
-## 1.安装  
+## 安装  
 ```bash
  yum -y install fail2ban
 ```
@@ -23,7 +23,7 @@ CentOS 7.6.1810 x86_64(Py3.7.9)
 相关的匹配规则则在 `filter.d` 目录中，其他文件目录是很少用到的。  
 还有一份 `fail2ban.sock` 文件会存在于 `/var/run/fail2ban` 中。  
 
-## 2.配置
+## 配置
 ```bash
  cd /etc/fail2ban
 ```
@@ -93,7 +93,7 @@ CentOS 7.6.1810 x86_64(Py3.7.9)
  enabled = true
 ```
 
-## 3.启动及状态
+## 启动及状态
 ```bash
  #启动
  systemctl start fail2ban
@@ -120,11 +120,11 @@ CentOS 7.6.1810 x86_64(Py3.7.9)
  iptables -nvL
 ```
 
-## 4.结果
+## 结果
 刚搞好fail2ban没几分钟，就已经逮到好几条记录了  
 ![结果](./img/fail2banresult.png)
 
-## 5.Better
+## Better
 *证书登录*当然是更好的办法咯  
 众所周知，**私钥**是更安全的登录方式，但是目前就接入github用上了，自己电脑上都没保存hhhhh  
 找个借口：~~设备太多.~~  

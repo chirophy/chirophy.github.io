@@ -8,7 +8,7 @@ sidebar_position: 1
 
 ## Introduce
 这是使用 **Docusaurus** 写出来的wiki  
-##### 我的知识库
+作为我自己的**知识库**  
 在此收集了不少个人觉得还算有用的知识  
         
 确实很方便  
