@@ -184,10 +184,10 @@ const config = {
       //algolia搜索
       algolia: {
         // The application ID provided by Algolia
-        appId: '4MDNJJW7KV',
+        appId: 'U0NYC0QHT6',
   
         // Public API key: it is safe to commit it
-        apiKey: '834c3d23ccffcd1e36e0721f5f4c596c',
+        apiKey: '1cb2030730a9c752c651fce3b1ee001c',
   
         indexName: 'wiki',
   

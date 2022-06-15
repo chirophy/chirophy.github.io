@@ -1,6 +1,6 @@
 new Crawler({
-    appId: '4MDNJJW7KV',
-    apiKey: '1ba1544563d6c98b94f00e28b85c1a48',
+    appId: 'U0NYC0QHT6',
+    apiKey: '1cb2030730a9c752c651fce3b1ee001c',
     rateLimit: 8,
     startUrls: ['https://wiki.chirophy.online/'],
     sitemaps: ['https://wiki.chirophy.online/sitemap.xml'],
