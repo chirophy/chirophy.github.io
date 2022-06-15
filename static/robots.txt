@@ -1,2 +1,6 @@
 User-agent: *
 Disallow:
+# Algolia-Crawler-Verif: 5BC96527E8091612
+User-agent: *
+Allow: /
+Sitemap: https://www.algolia.com/sitemap.xml
