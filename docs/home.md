@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 
 # Home  
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a2eca641-bd62-4528-af57-50362d7c10d7/deploy-status)](https://app.netlify.com/sites/chirophy/deploys)
 ---
 
 ## Introduce

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+keywords: [艾尔登法环,eldenring,群星]
 ---
 
 # 整体说明

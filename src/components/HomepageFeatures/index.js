@@ -1,26 +1,37 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import Link from '@docusaurus/Link';
 
 const FeatureList = [
-  /*{
-    
-    title: '先随便写点看看',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        这是使用docusaurus创建的wiki界面，
-        看看后面能不能搞成自己的博客。
-      </>
-    ),
-  },*/
   {
-    //title: 'Powered by React',
-    title: '如果有两个',
-    Svg: require('@site/static/img/homepage.svg').default,
+    title: '',
     description: (
       <>
-        测试居中
+      </>
+    ), 
+  },
+  {
+    title: 'About Me',
+    //Svg: require('@site/static/img/homepage.svg').default,
+    description: (
+      <h4>
+      不会写代码的老师不是好二次元.
+      <p></p>
+        <div className={styles.buttons}>
+          <Link
+            className="button button--secondary button--lg"
+            to="/blog">
+            看看近况🌊
+          </Link>
+        </div>
+      </h4>
+    ),
+  },
+  {
+    title: '',
+    description: (
+      <>
       </>
     ),
   },
@@ -31,7 +42,7 @@ function Feature({Svg, title, description}) {
     //文字居中
       <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        {/*   <Svg className={styles.featureSvg} role="img" />  */}
       </div>
       <div className="text--center padding-horiz--md">      
         <h2>{title}</h2>

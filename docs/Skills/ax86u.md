@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+keywords: [华硕路由器,AX86U,固件,梅林,官改,koolshare,koolcenter]
 ---
 
 # 华硕路由固件

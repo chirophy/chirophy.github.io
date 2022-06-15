@@ -1,5 +1,5 @@
 # 新抄的wiki
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a2eca641-bd62-4528-af57-50362d7c10d7/deploy-status)](https://app.netlify.com/sites/chirophy/deploys)
 ## Docusaurus模版
 用的是Facebook开发的产品  
 原来fb还是有好产品的  
@@ -8,7 +8,7 @@
 删删改改做成现在这个样子  
 
 ## 后续
-1. 修改wiki主页面
+1. ~~修改wiki主页面~~
 2. ~~搞好/docs分类~~
  - ~~Docusaurus教程~~
  - ~~Linux~~

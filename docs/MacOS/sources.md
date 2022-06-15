@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+keywords: [MAC,Mac软件]
 ---
 # Mac软件获取方式
 

@@ -54,6 +54,70 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+
+.navbar__title {
+  font-weight: 900;
+}
+
+.navbar__logo {
+  height: 40px;
+}
+
+.navbar__brand:hover {
+  color: var(--ifm-navbar-link-color);
+}
+
+.navbar__item {
+  font-weight: 700;
+}
+
+.navbar.navbar--fixed-top {
+  z-index: 100;
+}
+
+.DocSearch-Container {
+  z-index: 110;
+}
+
+
+/*.footer--dark {
+  --ifm-footer-background-color: #000000;
+  --ifm-footer-color: #eef0f2;
+  --ifm-footer-link-color: #c5cbd2;
+}*/
+
+.footer__title {
+  font-weight: 900;
+}
+
+.footer__item {
+  font-weight: 700;
+}
+
+.footer__item svg {
+  display: none;
+}
+
+.footer__copyright {
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--ifm-footer-color);
+}
+
+.footer__copyright > a {
+  color: var(--ifm-footer-link-color);
+}
+
+.footer__copyright > a:hover {
+  text-decoration: underline;
+}
+
+.footer__links {
+  margin-bottom: 1.5rem;
+}
+
+
+
 /*搜索框正常模式*/
 [data-theme='light'] .DocSearch {
   /* --docsearch-primary-color: var(--ifm-color-primary); */

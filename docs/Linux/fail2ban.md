@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+keywords: [fail2ban,Linux]
 ---
 
 # fail2ban

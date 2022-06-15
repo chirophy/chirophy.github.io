@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+keywords: [群晖Nas,nas,tun,内网穿透]
 ---
 
 # 解决群晖Nas无法使用TUN/TAP的问题

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+keywords: [华硕路由器,AX86U,固件,梅林,官改,koolshare,koolcenter,科学上网,外出,SS,SSR,V2ray,clash]
 ---
 
 # 华硕路由外出办法

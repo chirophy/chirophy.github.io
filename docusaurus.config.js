@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'WWWiki',//标签页前面由三个部分构成的，这是第二个地方
-  tagline: '仍在创作中...',//标签页前面由三个部分构成的，这是第三个地方
+  tagline: '',//标签页前面由三个部分构成的，这是第三个地方
   url: 'https://wiki.chirophy.online',
   baseUrl: '/',
   onBrokenLinks: 'throw',//当 Docusaurus 检测到任何无效的链接时所应采取的行为
@@ -37,23 +37,12 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          //routeBasePath: "/",
-          //path: "/docs",
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          //editUrl:
-            //'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
           blogTitle: 'ChiroPhy’s blog!',
           blogDescription: '吐槽槽~',
           blogSidebarTitle: '近况',
-          //postsPerPage: 'ALL',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          //editUrl:
-            //'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -71,11 +60,19 @@ const config = {
           hideable: true,
         },
       },
-      metadata: [{name: 'keywords', content: 'chirophy'}],
+      metadata: [{name: 'keywords', content: 'chirophy'}],//seo
 
+      //页面上方横条文字
+      announcementBar: {
+        id: 'support_us',
+        content: '⭐️ 如果这个网站能帮助到你，欢迎给一个star支持作者  <a target="_blank" rel="noopener noreferrer" href="https://github.com/chirophy/chirophy.github.io">GitHub</a>',
+        backgroundColor: '#fafbfc',
+        textColor: '#091E42',
+        isCloseable: true,
+      }, 
 
       navbar: {
-        title: '奇奇怪怪的Wiki',
+        title: 'ChiroPhy’s Wiki',
         logo: {
           alt: 'My Site Logo',
           src: 'img/shiro.png',
@@ -87,6 +84,10 @@ const config = {
             position: 'right',
             label: 'Docusaurus指南',
           },*/
+          {
+            type: 'search',
+            position: 'right',
+          },
           {
             //跳转页面
             to: '/docs/home',
@@ -120,6 +121,10 @@ const config = {
                 label: 'Linux',
                 to: '/docs/category/linux',
               },
+              {
+                label: 'Elden Ring',
+                to: '/docs/category/elden-ring/',
+              },
             ],
           },
           {
@@ -134,25 +139,29 @@ const config = {
                 href: 'https://wiki.qc47.net/',
               },
               {
-                label:'📝汉语反向词典',
-                href: 'https://wantwords.net',
-              }
+                label: '🤵🏼畅总',
+                href: 'https://xchub.cn/',
+              },
             ],
           },
           {
             title: 'More',
             items: [
-              /*{
-                label: 'Blog',
-                to: '/blog',
-              },*/
               {
                 label:'👍ZSC常用网站',
                 to: '/zsclinks'
-            },
+              },
               {
                   label:'💻NextCloud',
                   href:'http://n.chirophy.online'
+              },
+              {
+                label:'📝汉语反向词典',
+                href: 'https://wantwords.net',
+              },
+              {
+                label: 'Netlify',
+                href: 'https://chirophy.netlify.app',
               },
               {
                 label: '静态',
@@ -162,27 +171,31 @@ const config = {
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Power by ChiroPhy | 粤ICP备2020137394号 | Built with Docusaurus.`,
-        //Copyright: `${new Date().getFullYear()}Power ChiroPhy | 粤ICP备2020137394号 | Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+
+      colorMode: {
+        respectPrefersColorScheme: true
+      },
+
       //algolia搜索
       algolia: {
         // The application ID provided by Algolia
-        appId: 'YOUR_APP_ID',
+        appId: '4MDNJJW7KV',
   
         // Public API key: it is safe to commit it
-        apiKey: 'YOUR_SEARCH_API_KEY',
+        apiKey: '834c3d23ccffcd1e36e0721f5f4c596c',
   
-        indexName: 'YOUR_INDEX_NAME',
+        indexName: 'wiki',
   
         // Optional: see doc section below
         contextualSearch: true,
   
         // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
-        externalUrlRegex: 'external\\.com|domain\\.com',
+        externalUrlRegex: 'https://wiki.chirophy.online',
   
         // Optional: Algolia search parameters
         searchParameters: {},

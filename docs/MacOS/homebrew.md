@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+keywords: [Homebrew,homebrew,MAC,M1]
 ---
 
 # Homebrew相关  
