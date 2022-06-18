@@ -66,13 +66,14 @@ const config = {
       announcementBar: {
         id: 'support_us',
         content: '⭐️ 如果这个网站能帮助到你，欢迎给一个star支持作者  <a target="_blank" rel="noopener noreferrer" href="https://github.com/chirophy/chirophy.github.io">GitHub</a>',
-        backgroundColor: '#fafbfc',
+        backgroundColor: '#00FFFF',
         textColor: '#091E42',
         isCloseable: true,
       }, 
 
       navbar: {
         title: 'ChiroPhy’s Wiki',
+        hideOnScroll: true,
         logo: {
           alt: 'My Site Logo',
           src: 'img/shiro.png',
@@ -170,7 +171,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Power by ChiroPhy | 粤ICP备2020137394号 | Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Power by ChiroPhy | <a href="https://beian.miit.gov.cn/">粤ICP备2020137394号</a> | Built with <a href="https://docusaurus.io/">Docusaurus</a>.`,
       },
       prism: {
         theme: lightCodeTheme,
@@ -184,12 +185,12 @@ const config = {
       //algolia搜索
       algolia: {
         // The application ID provided by Algolia
-        appId: 'U0NYC0QHT6',
+        appId: '7JTWMD9JUI',
   
         // Public API key: it is safe to commit it
-        apiKey: '1cb2030730a9c752c651fce3b1ee001c',
+        apiKey: '265666200fd0e0b5d5a6404de2813875',
   
-        indexName: 'wiki',
+        indexName: 'chirophy',
   
         // Optional: see doc section below
         contextualSearch: true,

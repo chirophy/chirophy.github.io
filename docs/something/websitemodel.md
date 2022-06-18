@@ -5,6 +5,15 @@ keywords: [docusaurus，github]
 ---
 
 # 网站设计参考
+## 愧怍
+页面：https://kuizuo.cn/  
+源码：https://github.com/kuizuo/blog  
+大佬还有很多好的文章，值得学习！  
+
+## 404Lab
+页面：https://wiki.404lab.top/  
+源码：https://github.com/HiChen404/MyWikiSite  
+
 ## Dategit
 页面：https://www.datagit.ir/en/  
 源码：https://github.com/ghaseminya/datagit_v2.docusaurus  

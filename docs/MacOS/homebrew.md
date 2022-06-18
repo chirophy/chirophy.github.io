@@ -18,7 +18,7 @@ keywords: [Homebrew,homebrew,MAC,M1]
 :::
 在执行完上述的脚本文件后，还需设置环境变量  
 默认终端类型为 `/bin/zsh`
-```bash
+```bash showLineNumbers
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
@@ -26,7 +26,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 ## 设置镜像
 ### 中科大源
-```bash
+```bash showLineNumbers
 git -C "$(brew --repo)" remote set-url origin https://mirrors.ustc.edu.cn/brew.git
 
 git -C "$(brew --repo homebrew/core)" remote set-url origin https://mirrors.ustc.edu.cn/homebrew-core.git
@@ -37,7 +37,7 @@ brew update
 ```
 
 ### 清华源
-```bash
+```bash showLineNumbers
 git -C "$(brew --repo)" remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git
 
 git -C "$(brew --repo homebrew/core)" remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git
@@ -48,13 +48,13 @@ brew update
 ```
 
 ### 设置bottles镜像
-```bash
+```bash showLineNumbers
 echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles/bottles' >> ~/.zprofile
 source ~/.zprofile
 ```
 
 ### 恢复默认源
-```bash
+```bash showLineNumbers
 git -C "$(brew --repo)" remote set-url origin https://github.com/Homebrew/brew.git
 
 git -C "$(brew --repo homebrew/core)" remote set-url origin https://github.com/Homebrew/homebrew-core.git

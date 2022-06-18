@@ -21,7 +21,7 @@ insmod /lib/modules/tun.ko
 ```
 
 ## 测试 `tun.ko` 模块是否有效
-```bash
+```bash showLineNumbers
 mkdir /dev/net
 mknod /dev/net/tun c 10 200
 chmod 600 /dev/net/tun

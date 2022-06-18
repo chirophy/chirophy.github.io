@@ -29,7 +29,7 @@ yum install -y git
 ``` 
 此方法在腾讯云CentOs7._中无法顺利安装最新版本，估计是源不对  
  - 2.2 编译安装
-```bash
+```bash showLineNumbers
 # 进我想的安装目录
 cd /usr/local/src
 
@@ -45,7 +45,7 @@ make prefix=/usr/local/git install
 ```
 
 3. 配置环境变量
-```bash
+```bash showLineNumbers
 # 编辑配置文件
 vim /etc/profile
 

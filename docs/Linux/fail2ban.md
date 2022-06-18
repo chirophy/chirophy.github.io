@@ -33,7 +33,7 @@ CentOS 7.6.1810 x86_64(Py3.7.9)
 ```bash
  vim jail.local
 ```
-```bash
+```bash showLineNumbers
  [DEFAULT]
  # 忽略的IP列表,不受设置限制
  ignoreip = 127.0.0.1/8 
@@ -95,7 +95,7 @@ CentOS 7.6.1810 x86_64(Py3.7.9)
 ```
 
 ## 启动及状态
-```bash
+```bash showLineNumbers
  #启动
  systemctl start fail2ban
 
@@ -123,7 +123,7 @@ CentOS 7.6.1810 x86_64(Py3.7.9)
 
 ## 结果
 刚搞好fail2ban没几分钟，就已经逮到好几条记录了  
-![结果](./img/fail2banresult.png)
+![结果](https://s3.bmp.ovh/imgs/2022/06/19/aeab956184dce79b.png)
 
 ## Better
 *证书登录*当然是更好的办法咯  

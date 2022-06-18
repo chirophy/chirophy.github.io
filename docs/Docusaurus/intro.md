@@ -6,6 +6,8 @@ sidebar_position: 1
 
 让我们**在不到5分钟的时间内**了解**Docusaurus**.
 
+**[官方文档](https://docusaurus.io/zh-CN/docs)**
+
 ## 快速入门
 
 从**创建一个新的网站**开始.

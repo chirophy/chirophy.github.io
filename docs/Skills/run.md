@@ -17,7 +17,7 @@ sed -i 's/\tdetect_package/\t# detect_package/g' /koolshare/scripts/ks_tar_insta
 ```
 之后即可正常安装  
 
-3. 正常订阅SS、SSR、V2ray即可
+3. 正常订阅SS、SSR、V2ray、Xray、Trojan即可
 
 4. 存在问题
 - 该科学上网插件的 `gfwlist` 模式更新有点慢
@@ -38,4 +38,13 @@ sed -i 's/\tdetect_package/\t# detect_package/g' /koolshare/scripts/ks_tar_insta
 **ARM v7 384/6版本**       --  支持使用384/386版本固件的`AC68U/AC88U/RT5300/斐讯K3 G大固件`等  
 **ARM v7 380版本**           --  支持使用380版本固件的ARM v7路由器  
 
+## 推荐
+个人比较推荐**科学上网**插件hhhhhh  
+可能是clash有点点偏见吧  
+毕竟 clash默认修改`DNS`  
+然后**实际体验**，由于*科学上网*插件已于2022年6月8日更新了`3.0.3`版本  
+支持了更多的协议(`trojan`)，**稳定性++**  
+    
+    
+最后  
 开心上网就完事了

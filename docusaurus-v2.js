@@ -1,6 +1,6 @@
 new Crawler({
-    appId: 'U0NYC0QHT6',
-    apiKey: '1cb2030730a9c752c651fce3b1ee001c',
+    appId: '7JTWMD9JUI',
+    apiKey: '265666200fd0e0b5d5a6404de2813875',
     rateLimit: 8,
     startUrls: ['https://wiki.chirophy.online/'],
     sitemaps: ['https://wiki.chirophy.online/sitemap.xml'],
@@ -8,7 +8,7 @@ new Crawler({
     discoveryPatterns: ['https://wiki.chirophy.online/**'],
     actions: [
       {
-        indexName: 'wiki',
+        indexName: 'chirophy',
         pathsToMatch: ['https://wiki.chirophy.online/**'],
         recordExtractor: ({ $, helpers }) => {
           // priority order: deepest active sub list header -> navbar active item -> 'Documentation'

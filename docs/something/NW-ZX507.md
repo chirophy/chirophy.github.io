@@ -30,9 +30,9 @@ keywords: [ZX505,ZX507,Sony,索尼,固件,谷歌全家桶]
 由国行变成了美版 `4.03` 固件  
 
 ## 结果
-愉快的刷上了谷歌全家桶
-![图1](./img/Walkman0.jpg)
-![图2](./img/Walkman1.jpg)
+愉快的刷上了谷歌全家桶  
+![446c980bcd5013dfda7b6c6de14a54e4.jpg](https://img.gejiba.com/images/446c980bcd5013dfda7b6c6de14a54e4.jpg)
+![59ec0c554614cf7535b8521713da19ae.jpg](https://img.gejiba.com/images/59ec0c554614cf7535b8521713da19ae.jpg)
 
 ## more
 装上谷歌耗电还是吃不消  

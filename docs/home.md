@@ -16,7 +16,7 @@ sidebar_position: 1
 后面按照计划慢慢修改  
 
 ## Plan
-1. 修改wiki主页面
+1. ~~修改wiki主页面~~
 2. ~~搞好/docs分类~~
  - ~~Docusaurus教程~~
  - ~~Linux~~

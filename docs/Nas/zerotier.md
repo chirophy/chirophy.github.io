@@ -87,14 +87,17 @@ docker exec -it zt zerotier-cli status
 ```bash
 docker exec -it zt zerotier-cli join [Network ID]
 ```
-
+:::tip
+如此步骤加入网络不成功，可使用手动添加的方式进行添加：  
+在 **[ZeroTier Central](https://my.zerotier.com/)** 控制页面 `Member` - `MANUALLY ADD MEMBER` 中输入对应的 `Address` 进行 **`Add New Member`** 即可  
+:::
 3. 给Nas授权，并查看网络状态
 ```bash
 docker exec -it zt zerotier-cli listnetworks
-
-# 会显示你的IP地址
 ```
-**注：**在[ZeroTier Central](https://my.zerotier.com/)页面的 `Members` 项中并不会显示出相关授权信息，但确实已连上！
+会显示你的IP地址
+
+~~**注：**在[ZeroTier Central](https://my.zerotier.com/)页面的 `Members` 项中并不会显示出相关授权信息，但确实已连上！~~
 
 4. 显示正在运行的容器(可选项)
 ```bash
