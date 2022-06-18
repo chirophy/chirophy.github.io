@@ -41,7 +41,7 @@ const config = {
         blog: {
           showReadingTime: true,
           blogTitle: 'ChiroPhy’s blog!',
-          blogDescription: '吐槽槽~',
+          //blogDescription: '吐槽槽~',
           blogSidebarTitle: '近况',
         },
         theme: {

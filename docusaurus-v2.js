@@ -11,7 +11,6 @@ new Crawler({
         indexName: 'chirophy',
         pathsToMatch: ['https://wiki.chirophy.online/**'],
         recordExtractor: ({ $, helpers }) => {
-          // priority order: deepest active sub list header -> navbar active item -> 'Documentation'
           const lvl0 =
             $(
               '.menu__link.menu__link--sublist.menu__link--active, .navbar__item.navbar__link--active'
