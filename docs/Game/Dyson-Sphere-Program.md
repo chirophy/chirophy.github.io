@@ -1,4 +1,6 @@
-
+---
+sidebar_position: 3
+---
 # 戴森球计划
 
 
