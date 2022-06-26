@@ -1,6 +1,7 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
+const path = require('path')
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
@@ -10,7 +11,7 @@ const config = {
   tagline: '',//标签页前面由三个部分构成的，这是第三个地方
   url: 'https://wiki.chirophy.online',
   baseUrl: '/',
-  onBrokenLinks: 'throw',//当 Docusaurus 检测到任何无效的链接时所应采取的行为
+  onBrokenLinks: 'ignore',//当 Docusaurus 检测到任何无效的链接时所应采取的行为
   onBrokenMarkdownLinks: 'warn',//当 Docusaurus 检测到任何无效的 markdown 链接时，Docusaurus 应该采取的行为。
   favicon: 'img/favicon.ico',
   //themes: ['@docusaurus/theme-search-algolia'],
@@ -41,15 +42,24 @@ const config = {
         blog: {
           showReadingTime: true,
           blogTitle: 'ChiroPhy’s blog!',
-          //blogDescription: '吐槽槽~',
           blogSidebarTitle: '近况',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        sitemap: {
+          changefreq: 'daily',
+          priority: 0.5,
+        }
       }),
     ],
   ],
+
+  plugins: [
+    path.resolve(__dirname, './src/plugin/plugin-baidu-analytics'),
+    path.resolve(__dirname, './src/plugin/plugin-baidu-push'),
+  ],
+
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -60,7 +70,7 @@ const config = {
           hideable: true,
         },
       },
-      metadata: [{name: 'keywords', content: 'chirophy'}],//seo
+      metadata: [{name: 'keywords', content: 'chirophy,blog,javascript,typescript,python,nodejs,react,前端,后端'}],//seo
 
       //页面上方横条文字
       announcementBar: {
@@ -79,21 +89,24 @@ const config = {
           src: 'img/shiro.png',
         },
         items: [
-          /*{
-            type: 'doc',
-            docId: 'intro',
-            position: 'right',
-            label: 'Docusaurus指南',
-          },*/
           {
             type: 'search',
             position: 'right',
           },
           {
             //跳转页面
-            to: '/docs/home',
             label: '📘Wiki',
-            position: 'right'
+            position: 'right',
+            items: [
+              {
+                label: '📖技术笔记',
+                to: 'docs/Notes/home/',
+              },
+              {
+                label: '🎮Game',
+                to: 'docs/Game/intro',
+              },
+            ],
           },
           {
             //跳转页面
@@ -101,30 +114,19 @@ const config = {
             label: '🌈Blog',
             position: 'right'
           },
-          {
-            href: 'https://github.com/chirophy',
-            label: '🚀GitHub',
-            position: 'right',
-          },
         ],
       },
       footer: {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '特殊文档',
             items: [
               {
-                label: 'Docusaurus教程',
-                to: '/docs/category/docusaurus教程',
-              },
-              {
-                label: 'Linux',
-                to: '/docs/category/linux',
-              },
-              {
-                label: 'Elden Ring',
-                to: '/docs/category/elden-ring/',
+                type: 'docSidebar',
+                label: '🎮Game',
+                sidebarId: 'game',
+                to: '/docs/Game/intro',
               },
             ],
           },
@@ -134,6 +136,18 @@ const config = {
               {
                 label: '🏠主页',
                 href: 'https://chirophy.online',
+              },
+              {
+                href: 'https://github.com/chirophy',
+                label: '🚀GitHub',
+              },
+              {
+                label: 'Netlify',
+                to: 'https://chirophy.netlify.app',
+              },
+              {
+                label: '静态',
+                to: 'https://chirophy.github.io',
               },
               {
                 label: '3️⃣线线线',
@@ -149,6 +163,10 @@ const config = {
             title: 'More',
             items: [
               {
+                label: '关于我',
+                to: '/about',
+              },
+              {
                 label:'👍ZSC常用网站',
                 to: '/zsclinks'
               },
@@ -159,14 +177,6 @@ const config = {
               {
                 label:'📝汉语反向词典',
                 href: 'https://wantwords.net',
-              },
-              {
-                label: 'Netlify',
-                href: 'https://chirophy.netlify.app',
-              },
-              {
-                label: '静态',
-                href: 'https://chirophy.github.io',
               },
             ],
           },
@@ -205,6 +215,11 @@ const config = {
         searchPagePath: 'search',
   
         //... other Algolia params
+
+        tableOfContents: {
+          minHeadingLevel: 2,
+          maxHeadingLevel: 4,
+        },
       },
     }),
 };
