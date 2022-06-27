@@ -42,7 +42,9 @@ const config = {
         blog: {
           showReadingTime: true,
           blogTitle: 'ChiroPhy’s blog!',
-          blogSidebarTitle: '近况',
+          blogSidebarTitle: '人生旅程',
+          //postsPerPage: 'ALL',
+          blogSidebarCount: 'ALL',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
