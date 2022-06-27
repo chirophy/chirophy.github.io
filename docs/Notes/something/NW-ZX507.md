@@ -1,6 +1,6 @@
 ---
-sidebar_position: 1
-date: 2021-06-11T21:18
+sidebar_position: 5
+date: 2022-06-11T21:18
 keywords: [ZX505,ZX507,Sony,索尼,固件,谷歌全家桶]
 ---
 # NW-ZX507固件更新

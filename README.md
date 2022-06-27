@@ -20,5 +20,5 @@
 5. 写一个法环wiki
  - ~~按照 `武器、防具、护符` 进行分类~~
  - 参考[法环WIKI](https://docs.qq.com/sheet/DSG9JUFJKbWdHVUls)来整合
-6. 添加技术相关md
-7. 同步主站blog
+6. ~~添加技术相关md~~
+7. ~~同步主站blog~~

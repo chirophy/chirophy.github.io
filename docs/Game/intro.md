@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+displayed_sidebar: Game
 ---
 # 一起来玩游戏吧！  
 
