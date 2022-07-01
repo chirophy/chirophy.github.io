@@ -116,18 +116,30 @@ const config = {
             label: '🌈Blog',
             position: 'right'
           },
+          {
+            href: 'https://github.com/chirophy',
+            position: "right",
+            className: "header-github-link",
+            "aria-label": "GitHub repository",
+          },
         ],
       },
       footer: {
         style: 'dark',
         links: [
           {
-            title: '特殊文档',
+            title: ':)',
             items: [
               {
-                type: 'docSidebar',
+                label: '🏡首页',
+                to: '/',
+              },
+              {
+                label: '🦸‍♂️关于我',
+                to: '/about',
+              },
+              {
                 label: '🎮Game',
-                sidebarId: 'game',
                 to: '/docs/Game/intro',
               },
             ],
@@ -138,10 +150,6 @@ const config = {
               {
                 label: '🏠主页',
                 href: 'https://chirophy.online',
-              },
-              {
-                href: 'https://github.com/chirophy',
-                label: '🚀GitHub',
               },
               {
                 label: 'Netlify',
@@ -164,10 +172,6 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: '关于我',
-                to: '/about',
-              },
               {
                 label:'👍ZSC常用网站',
                 to: '/zsclinks'

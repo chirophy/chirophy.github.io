@@ -25,3 +25,7 @@ keywords: [docusaurus，github]
 ## Akara的博客
 页面：https://messiahhh.github.io/blog/  
 源码：https://github.com/Messiahhh/blog
+
+## icodex.me
+页面：https://icodex.me/  
+源码：https://github.com/wood3n/icodex-next  
