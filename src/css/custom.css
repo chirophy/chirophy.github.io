@@ -3,35 +3,6 @@
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
-
-/* You can override the default Infima variables here. */
-/*default
-:root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-}
-*/
-
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-/*default
-[data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-}
-*/
 :root {
   --ifm-color-primary: #1677b3;
   --ifm-color-primary-dark: #146ba1;
@@ -53,7 +24,6 @@
   --ifm-color-primary-lightest: #94bed9;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
-
 
 .navbar__title {
   font-weight: 900;
@@ -78,7 +48,6 @@
 .DocSearch-Container {
   z-index: 110;
 }
-
 
 /*.footer--dark {
   --ifm-footer-background-color: #000000;
@@ -115,7 +84,6 @@
 .footer__links {
   margin-bottom: 1.5rem;
 }
-
 
 
 /*搜索框正常模式*/
@@ -159,6 +127,7 @@
   );
 }
 
+
 /* GitHub Link */
 .header-github-link:hover {
   opacity: 0.6;
@@ -178,14 +147,15 @@ html[data-theme="dark"] .header-github-link:before {
     no-repeat;
 }
 
+
+/* 
+` `当中的文字颜色
+*/
 code {
-  color: #a90d91;
+  color: #1da2d6;
 }
 
 html[data-theme="dark"] code {
   color: #9fcae3;
 }
 
-blockquote {
-  background: #f0f0f0;
-}

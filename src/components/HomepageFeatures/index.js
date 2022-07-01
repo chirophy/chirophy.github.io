@@ -13,7 +13,7 @@ const FeatureList = [
   },
   {
     title: 'About Me',
-    //Svg: require('@site/static/img/homepage.svg').default,
+    // Svg: require('@site/static/img/homepage.svg').default,
     description: (
       <h4>
       不会写代码的老师不是好二次元.
@@ -42,7 +42,7 @@ function Feature({Svg, title, description}) {
     //文字居中
       <div className={clsx('col col--4')}>
       <div className="text--center">
-        {/*   <Svg className={styles.featureSvg} role="img" />  */}
+          {/* <Svg className={styles.featureSvg} role="img" />  */}
       </div>
       <div className="text--center padding-horiz--md">      
         <h2>{title}</h2>
