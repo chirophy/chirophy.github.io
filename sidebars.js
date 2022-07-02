@@ -52,6 +52,7 @@ const sidebars = {
         },
         'Notes/Docusaurus/notice',
         'Notes/Docusaurus/sidebar',
+        'Notes/Docusaurus/分页导航',
       ],
     },
     {
