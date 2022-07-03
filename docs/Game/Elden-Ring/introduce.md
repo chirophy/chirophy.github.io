@@ -36,7 +36,12 @@ keywords: [艾尔登法环,eldenring,群星]
 2. 群星结局
 3. 癫火结局
 
+```mdx-code-block
+import DocCardList from '@theme/DocCardList';
+import {useCurrentSidebarCategory} from '@docusaurus/theme-common';
 
+<DocCardList items={useCurrentSidebarCategory().items}/>
+```
 
 
 

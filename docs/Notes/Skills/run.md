@@ -27,7 +27,7 @@ sed -i 's/\tdetect_package/\t# detect_package/g' /koolshare/scripts/ks_tar_insta
 官方更新在 `telegram` 的频道中  
 >频道地址：https://t.me/merlinclashcat  
 
-当然也可以点击 **[此处](./MCKP_HND_220520.tar.gz)** 进行下载  
+当然也可以点击 **[此处](https://img-1255648810.cos.ap-guangzhou.myqcloud.com/MCKP_HND_220520.tar.gz)** 进行下载  
 然后进行离线安装即可  
 `clash`更多操作可以参考 **[MerlinClash Wiki](https://mcreadme.gitbook.io/mc/)**  
 

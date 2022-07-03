@@ -31,6 +31,7 @@ sidebar_position: 1
 6. ~~添加技术相关md~~
 7. ~~同步主站blog~~
 
+![](https://img-1255648810.cos.ap-guangzhou.myqcloud.com/wiki/9kCNV.jpg)
 ## Continue
 :::tip 
 

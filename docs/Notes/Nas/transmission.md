@@ -41,6 +41,10 @@ chmod +x install-tr-control-cn.sh
 
 bash install-tr-control-cn.sh
 ```
-成功之后就这样啦：
+成功之后就这样啦：  
+![](https://img-1255648810.cos.ap-guangzhou.myqcloud.com/wiki/1443687646.png)  
+
+最后`transmission`的界面为：  
+![](https://img-1255648810.cos.ap-guangzhou.myqcloud.com/wiki%2F1851480362.png)
 
 之后新的界面就舒服多了，上传下载一目了然，分享率也直观体现！
