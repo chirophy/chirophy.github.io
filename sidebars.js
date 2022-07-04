@@ -90,6 +90,7 @@ const sidebars = {
       items: [
         'Notes/something/vs2013',
         'Notes/something/AIDA64',
+        'Notes/something/emoji',
         'Notes/something/string',
         'Notes/something/MFC-problem',
         'Notes/something/NW-ZX507',
