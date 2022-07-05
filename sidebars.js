@@ -77,8 +77,10 @@ const sidebars = {
       },
       items: [
         'Notes/Skills/git',
+        'Notes/Skills/moon',
         'Notes/Skills/ax86u',
         'Notes/Skills/run',
+        'Notes/Skills/debian-pi-aarch64',
       ],
     },
     {

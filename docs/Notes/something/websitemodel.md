@@ -29,3 +29,7 @@ keywords: [docusaurus，github]
 ## icodex.me
 页面：https://icodex.me/  
 源码：https://github.com/wood3n/icodex-next  
+
+## Haochen
+页面：https://www.haochenqi.com/zh-cn/  
+源码：https://github.com/HaochenQ/Haochen-Blog  
