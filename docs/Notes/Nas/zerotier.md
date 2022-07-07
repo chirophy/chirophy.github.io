@@ -25,7 +25,8 @@ keywords: [ZeroTier,zt,群晖NAS,nas,frp,内网穿透]
 ## 安装
 :::info
 Synology DSM7.0后不允许第三方软件使用 `root` 权限，所以需要结合 `docker` 来使用 `zerotier`。  
-如果是DSM6.x，则可以直接使用官方提供的 [`.spk安装包`](http://download.zerotier.com/dist/synology/)。
+如果是DSM6.x，则可以直接使用官方提供的 [`.spk安装包`](http://download.zerotier.com/dist/synology/)。  
+其他 `Linux` 系统则可以直接执行 `curl -s https://install.zerotier.com/ | sudo bash` 命令即可安装。  
 :::
 ### 创建一个持续的TUN
 以下操作都需在 `root` 权限下进行。
