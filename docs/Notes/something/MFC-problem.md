@@ -3,7 +3,7 @@ sidebar_position: 4
 keywords: [MFC,VC++,vs2013]
 ---
 # 对于出现MFC问题的记录
-2020-07-24
+🗓2020-07-24  
 
 出现问题：参见“MBCS_Support_Deprecated_In_MFC”的声明
 

@@ -1,5 +1,10 @@
 # 新抄的wiki
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a2eca641-bd62-4528-af57-50362d7c10d7/deploy-status)](https://app.netlify.com/sites/chirophy/deploys)
+![Lines of code](https://img.shields.io/tokei/lines/github/chirophy/chirophy.github.io)
+![Size](https://img.shields.io/github/languages/code-size/chirophy/chirophy.github.io) 
+[![Repo size](https://img.shields.io/github/repo-size/chirophy/chirophy.github.io?color=eb56fd)](https://github.com/chirophy/chirophy.github.io)
+[![Last commit](https://img.shields.io/github/last-commit/chirophy/chirophy.github.io/main)](https://github.com/chirophy/chirophy.github.io/commits/main)  
+
 ## Docusaurus模版
 用的是Facebook开发的产品  
 原来fb还是有好产品的  
@@ -16,7 +21,7 @@
  - ~~Skill~~
  - ~~Elden Ring~~
 3. 翻译Docusaurus文档
-4. 把wiki作为主站
+4. ~~把wiki作为主站~~
 5. 写一个法环wiki
  - ~~按照 `武器、防具、护符` 进行分类~~
  - 参考[法环WIKI](https://docs.qq.com/sheet/DSG9JUFJKbWdHVUls)来整合
