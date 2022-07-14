@@ -61,7 +61,7 @@ function MyHero() {
         </div>
       </div>
       <div className={styles.rightContainer}>
-        <img src='	https://wiki.chirophy.online/assets/images/code-f9e79eee219cf9aeed9d6a5611d96b1e.svg' />
+        <img src='https://chirophy.online/assets/images/code-f9e79eee219cf9aeed9d6a5611d96b1e.svg' />
       </div>
     </div>
   )

@@ -67,6 +67,7 @@ const sidebars = {
         'Notes/Linux/硬盘对拷',
         'Notes/Linux/dd命令',
         'Notes/Linux/debian',
+        'Notes/Linux/Lighthouse',
       ],
     },
     {
