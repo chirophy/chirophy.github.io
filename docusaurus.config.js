@@ -78,7 +78,7 @@ const config = {
       announcementBar: {
         id: 'support_us',
         content: '⭐️ 如果这个网站能帮助到你，欢迎给一个star支持作者  <a target="_blank" rel="noopener noreferrer" href="https://github.com/chirophy/chirophy.github.io">GitHub</a>',
-        backgroundColor: '#00FFFF',
+        //backgroundColor: '#00FFFF',
         textColor: '#091E42',
         isCloseable: true,
       }, 
@@ -141,6 +141,10 @@ const config = {
               {
                 label: '🎮Game',
                 to: '/docs/Game/intro',
+              },
+              {
+                label: '🖼️Images',
+                href: 'http://img.chirophy.online/',
               },
             ],
           },

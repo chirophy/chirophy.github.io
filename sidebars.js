@@ -83,6 +83,7 @@ const sidebars = {
         'Notes/Skills/ax86u',
         'Notes/Skills/run',
         'Notes/Skills/debian-pi-aarch64',
+        'Notes/Skills/wiz',
       ],
     },
     {

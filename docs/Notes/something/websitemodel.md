@@ -33,3 +33,9 @@ keywords: [docusaurus，github]
 ## Haochen
 页面：https://www.haochenqi.com/zh-cn/  
 源码：https://github.com/HaochenQ/Haochen-Blog  
+
+## wiki-power
+页面：https://wiki-power.com/  
+源码：https://github.com/linyuxuanlin/Wiki_Docusaurus  
+导航站页面：https://nav.wiki-power.com/  
+导航站源码：https://github.com/linyuxuanlin/Wiki-nav_Hugo
