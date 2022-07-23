@@ -68,6 +68,7 @@ const sidebars = {
         'Notes/Linux/dd命令',
         'Notes/Linux/debian',
         'Notes/Linux/Lighthouse',
+        'Notes/Linux/docker',
       ],
     },
     {
@@ -84,6 +85,7 @@ const sidebars = {
         'Notes/Skills/run',
         'Notes/Skills/debian-pi-aarch64',
         'Notes/Skills/wiz',
+        'Notes/Skills/onemark',
       ],
     },
     {
