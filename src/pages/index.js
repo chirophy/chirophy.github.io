@@ -7,7 +7,6 @@ import styles from './index.module.css';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import logo from '@site/static/img/97031746_p0.jpg'
 import {ReactComponent  as Svgimg} from '../../static/img/code.svg'
-import Giscus from '@giscus/react';
 
 // 不使用
 function HomepageHeader() {
@@ -62,6 +61,8 @@ function MyHero() {
         </div>
       </div>
       <div className={styles.rightContainer}>
+        <br />
+        <br />
         <img src='https://chirophy.online/assets/images/code-f9e79eee219cf9aeed9d6a5611d96b1e.svg' />
       </div>
     </div>
@@ -84,22 +85,9 @@ export default function Home() {
       <MyHero />
       <main>
         {/* <HomepageFeatures /> */}
-        {/* <MyHero /> */}
-        <Giscus
-      id="comments"
-      repo="chirophy/chirophy.github.io"
-      repoId="R_kgDOHWD-zw"
-      category="Announcements"
-      categoryId="DIC_kwDOHWD-z84CQZGW"
-      mapping="url"
-      reactionsEnabled="1"
-      emitMetadata="0"
-      inputPosition="bottom"
-      theme="light_high_contrast"
-      lang="zh-CN"
-      loading="lazy"
-      crossorigin="anonymous"
-    />
+        <br />
+        <br />
+        <br />
       </main>
     </Layout>
   );

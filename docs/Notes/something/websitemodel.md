@@ -39,3 +39,7 @@ keywords: [docusaurus，github]
 源码：https://github.com/linyuxuanlin/Wiki_Docusaurus  
 导航站页面：https://nav.wiki-power.com/  
 导航站源码：https://github.com/linyuxuanlin/Wiki-nav_Hugo
+
+## Lanten
+页面：https://www.lanten.me/  
+源码：https://github.com/lanten/lanten.github.io  

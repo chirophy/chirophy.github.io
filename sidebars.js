@@ -86,6 +86,7 @@ const sidebars = {
         'Notes/Skills/debian-pi-aarch64',
         'Notes/Skills/wiz',
         'Notes/Skills/onemark',
+        'Notes/Skills/giscus',
       ],
     },
     {

@@ -102,7 +102,7 @@ const config = {
             items: [
               {
                 label: '📖技术笔记',
-                to: 'docs/Notes/home/',
+                to: 'docs/Notes/home',
               },
               {
                 label: '🎮Game',
@@ -111,10 +111,22 @@ const config = {
             ],
           },
           {
-            //跳转页面
+            //跳转blog页面
             to: '/blog/welcome',
             label: '🌈Blog',
-            position: 'right'
+            position: 'right',
+            items:[
+              {
+                label: '📑标签',
+                to: '/blog/tags/',
+              },
+            ],
+          },
+          {
+            //导航界面
+            label: '🧭导航',
+            position: 'right',
+            to: 'navigation'
           },
           {
             href: 'https://github.com/chirophy',
@@ -180,10 +192,10 @@ const config = {
                 label:'👍ZSC常用网站',
                 to: '/zsclinks'
               },
-              {
-                  label:'💻NextCloud',
-                  href:'http://n.chirophy.online'
-              },
+              // {
+              //     label:'💻NextCloud',
+              //     href:'http://n.chirophy.online'
+              // },
               {
                 label:'📝汉语反向词典',
                 href: 'https://wantwords.net',
@@ -231,6 +243,17 @@ const config = {
           maxHeadingLevel: 4,
         },
       },
+      giscus: {
+        repo: 'chirophy/chirophy.github.io',
+        repoId: 'R_kgDOHWD-zw',
+        category: 'Announcements',
+        categoryId: 'DIC_kwDOHWD-z84CQZGW',
+        mapping: 'url',
+        lang: 'zh-CN',
+    },
+
+
+
     }),
 };
 

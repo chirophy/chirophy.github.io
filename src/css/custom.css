@@ -197,7 +197,7 @@ p {
   margin: 0.5rem 0.3rem !important;
 }
 
-/* 公告栏 */
+/* 页面最上方公告栏 */
 div[class^='announcementBar_'] {
   --site-announcement-bar-stripe-color1: hsl(
     var(--site-primary-hue-saturation) 85%
@@ -216,3 +216,22 @@ div[class^='announcementBar_'] {
 }
 
 /* 滚动槽 */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: var(--ifm-color-primary-lighter);
+}
+
+html[data-theme='dark'] ::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: var(--ifm-color-primary-darker);
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 4px;
+  background-color: rgb(255 255 255 / 10%);
+}
