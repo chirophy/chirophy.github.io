@@ -115,12 +115,6 @@ const config = {
             to: '/blog/welcome',
             label: '🌈Blog',
             position: 'right',
-            items:[
-              {
-                label: '📑标签',
-                to: '/blog/tags/',
-              },
-            ],
           },
           {
             //导航界面
@@ -191,6 +185,10 @@ const config = {
               {
                 label:'👍ZSC常用网站',
                 to: '/zsclinks'
+              },
+              {
+                label: '📑标签',
+                to: '/blog/tags/',
               },
               // {
               //     label:'💻NextCloud',

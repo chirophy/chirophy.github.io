@@ -1,4 +1,3 @@
-
 export interface Website {
   name: string;
   logo: string;
@@ -14,6 +13,89 @@ export interface WebsiteCategory {
 
 
 export const websiteData: WebsiteCategory[] = [
+  {
+    name: 'PT',
+    websites: [
+      {
+        name: 'VCB-Studio',
+        desc: '本身为动漫压制组，致力于动漫分享。',
+        logo: 'https://vcb-s.com//favicon.ico',
+        href: 'https://vcb-s.com/',
+      },
+      {
+        name: '触摸春天',
+        desc: 'CMCT，国内较为知名的PT站点。',
+        logo: 'https://springsunday.net//favicon.ico',
+        href: 'https://springsunday.net/',
+      },
+      {
+        name: 'M-Team',
+        desc: '相当有名的PT站，更存有大量喜闻乐见的内容。',
+        logo: 'https://kp.m-team.cc/favicon.ico',
+        href: 'https://kp.m-team.cc/index.php',
+      },
+      {
+        name: 'OpenCD',
+        desc: '国内知名音乐类PT站，专注于音乐分享。',
+        logo: 'https://open.cd/favicon.ico',
+        href: 'https://open.cd/index.php',
+      },
+      {
+        name: '比特校园',
+        desc: '2019年刚创建的新站点，门槛相对比较低。',
+        logo: 'https://pt.btschool.club/favicon.ico',
+        href: 'https://pt.btschool.club/index.php',
+      },
+      {
+        name: 'HDTime',
+        desc: '老站点，但是没什么名气。',
+        logo: 'https://hdtime.org/favicon.ico',
+        href: 'https://hdtime.org/index.php',
+      },
+      {
+        name: '动漫花园',
+        desc: 'U2的表站，更注重于分享。',
+        logo: 'https://share.dmhy.org//favicon.ico',
+        href: 'https://share.dmhy.org/',
+      },
+      {
+        name: 'U2',
+        desc: '动漫和二次元的第一大站',
+        logo: 'https://u2.dmhy.org//favicon.ico',
+        href: 'https://u2.dmhy.org/',
+      },
+      {
+        name: '天雪动漫分享',
+        desc: '这是一个高清动漫的完全非盈利论坛,高清动漫是一个很小的圈子。论坛方向为DVD/BDRip和BDMV&BDMV用字幕相关。',
+        logo: 'https://skyeysnow.com//favicon.ico',
+        href: 'https://skyeysnow.com/',
+      },
+      {
+        name: 'Nyaa Torrents',
+        desc: '世界上最大的动漫专用种子索引站',
+        logo: 'https://nyaa.si//favicon.ico',
+        href: 'https://nyaa.si/',
+      },
+      {
+        name: 'TTG',
+        desc: '国内大站之一，2014 年末作为 TTG 出现。',
+        logo: 'https://totheglory.im//favicon.ico',
+        href: 'https://totheglory.im/',
+      },
+      {
+        name: 'Exoticaz',
+        desc: '成人PT站',
+        logo: 'https://exoticaz.to//favicon.ico',
+        href: 'https://exoticaz.to/',
+      },
+      {
+        name: '',
+        desc: '',
+        logo: '/favicon.ico',
+        href: '',
+      },
+    ]
+  },
   {
     name: '站点',
     websites: [
@@ -55,7 +137,7 @@ export const websiteData: WebsiteCategory[] = [
       {
         name: 'NGINX 配置',
         desc: '配置高性能、安全、稳定的NGINX服务器的最简单方法',
-        logo: '/img/website/digitalocean.png',
+        logo: 'https://www.digitalocean.com/favicon.ico',
         href: 'https://www.digitalocean.com/community/tools/nginx',
         tags: ['nginx'],
       },
@@ -75,7 +157,7 @@ export const websiteData: WebsiteCategory[] = [
       {
         name: 'emoji网站',
         desc: 'emoji大全',
-        logo: '',
+        logo: 'https://emojixd.com/favicon.ico',
         href: 'https://emojixd.com/',
         tags: ['工具'],
       },
