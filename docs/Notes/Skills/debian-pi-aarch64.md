@@ -185,12 +185,13 @@ Docker官方没有提供基于arm的docker-compose可运行二进制程序，因
 
 ### 3.3 预配置项
 系统提供网络和自动开机任务的预配置，相关配置文件的路径和对应关系如下：  
+
 | 预配置项 | 预配置文件路径 | 对应链接到的系统文件路径 |
 | --- | --- | --- |
-| 无线网络 | /boot/wpa_supplicant.conf | /etc/wpa_supplicant/wpa_supplicant.conf |
-| 有线网络 | /boot/interfaces | /etc/network/interfaces |
-| DHCP客户端 | /boot/dhclient.conf | /etc/dhcp/dhclient.conf |
-| 自定义启动脚本 | /boot/rc-local | /etc/rc.local |
+| 无线网络 | `/boot/wpa_supplicant.conf` | `/etc/wpa_supplicant/wpa_supplicant.conf` |
+| 有线网络 | `/boot/interfaces` | `/etc/network/interfaces` |
+| DHCP客户端 | `/boot/dhclient.conf` | `/etc/dhcp/dhclient.conf` |
+| 自定义启动脚本 | `/boot/rc-local` | `/etc/rc.local` |
 
 ### 3.4 无线配置说明
 桌面化环境可以登录到桌面环境后通过图形化界面设置，这里提供配置文件的修改方式。  

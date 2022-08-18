@@ -6,7 +6,6 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import logo from '@site/static/img/97031746_p0.jpg'
-import {ReactComponent  as Svgimg} from '../../static/img/code.svg'
 
 // 不使用
 function HomepageHeader() {
