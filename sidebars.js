@@ -127,6 +127,7 @@ const sidebars = {
       items: [
         'Notes/MacOS/sources',
         'Notes/MacOS/homebrew',
+        'Notes/MacOS/iTunes'
       ],
     },
   ],
