@@ -69,6 +69,7 @@ const sidebars = {
         'Notes/Linux/debian',
         'Notes/Linux/Lighthouse',
         'Notes/Linux/docker',
+        'Notes/Linux/rsshub',
       ],
     },
     {
