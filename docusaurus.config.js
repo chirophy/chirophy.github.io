@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'WWWiki',//标签页前面由三个部分构成的，这是第二个地方
+  title: '个人生活工作日常存储',//标签页前面由三个部分构成的，这是第二个地方
   tagline: '',//标签页前面由三个部分构成的，这是第三个地方
   url: 'https://wiki.chirophy.online',
   baseUrl: '/',
@@ -190,10 +190,10 @@ const config = {
                 label: '📑标签',
                 to: '/blog/tags/',
               },
-              // {
-              //     label:'💻NextCloud',
-              //     href:'http://n.chirophy.online'
-              // },
+              {
+                  label:'🌏时空地图',
+                  href:'https://www.allhistory.com/map'
+              },
               {
                 label:'📝汉语反向词典',
                 href: 'https://wantwords.net',
