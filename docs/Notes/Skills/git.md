@@ -4,8 +4,15 @@ keywords: [git,git版本,git安装,branch]
 ---
 
 # Git相关  
-常用git命令
+git命令收集
+
 ---
+## 常用git命令
+```bash
+git add .
+git commit -m ""
+git push
+```
 
 ## 查看git版本
 在用vscode远程编写这个wiki的时候，一直提示git的版本过低，才 `1.8.3.1`  

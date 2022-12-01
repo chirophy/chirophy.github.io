@@ -9,8 +9,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: '个人生活工作日常存储',//标签页前面由三个部分构成的，这是第二个地方
   tagline: '',//标签页前面由三个部分构成的，这是第三个地方
-  url: 'https://wiki.chirophy.online',
-  baseUrl: '/',
+  url: 'https://chirophy.online',
+  baseUrl: '/wiki',
   onBrokenLinks: 'ignore',//当 Docusaurus 检测到任何无效的链接时所应采取的行为
   onBrokenMarkdownLinks: 'warn',//当 Docusaurus 检测到任何无效的 markdown 链接时，Docusaurus 应该采取的行为。
   favicon: 'img/favicon.ico',
@@ -21,6 +21,8 @@ const config = {
   //organizationName: 'facebook', // Usually your GitHub org/user name.
   //projectName: 'docusaurus', // Usually your repo name.
   projectName: 'chirophy.github.io',
+  baseUrlIssueBanner: true,
+  titleDelimiter: '🔸',
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
