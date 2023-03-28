@@ -87,3 +87,12 @@ chmod 774 /var/packages/transmission/target/share/transmission/web/* -R
 
 ## 参考
 参考：[官方文档](https://github.com/ronggang/transmission-web-control/wiki/Home-CN)
+
+## 日志目录
+安装官方的 `transmission` 后，其路径不在默认的安装路径 `/volume1/@appstore/transmission` 中  
+而是在 `/var/packages/transmission` 中  
+详细位置 `/var/packages/transmission/var/transmission.log`
+然后复制到对应位置方便查看  
+```
+cp /var/packages/transmission/var/transmission.log /[地址]
+```

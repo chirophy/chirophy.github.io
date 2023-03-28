@@ -10,7 +10,7 @@ const config = {
   title: '个人生活工作日常存储',//标签页前面由三个部分构成的，这是第二个地方
   tagline: '',//标签页前面由三个部分构成的，这是第三个地方
   url: 'https://chirophy.online',
-  baseUrl: '/wiki',
+  baseUrl: '/',
   onBrokenLinks: 'ignore',//当 Docusaurus 检测到任何无效的链接时所应采取的行为
   onBrokenMarkdownLinks: 'warn',//当 Docusaurus 检测到任何无效的 markdown 链接时，Docusaurus 应该采取的行为。
   favicon: 'img/favicon.ico',
@@ -147,12 +147,20 @@ const config = {
                 to: '/about',
               },
               {
+                label: 'Netlify',
+                to: 'https://chirophy.netlify.app',
+              },
+              {
+                label: '静态',
+                to: 'https://chirophy.github.io',
+              },
+              {
                 label: '🎮Game',
                 to: '/docs/Game/intro',
               },
               {
                 label: '🖼️Images',
-                href: 'http://img.chirophy.online/',
+                href: 'http://chirophy.online/',
               },
             ],
           },
@@ -160,16 +168,12 @@ const config = {
             title: '友链',
             items: [
               {
-                label: '🏠主页',
-                href: 'https://chirophy.online',
+                label: '🎬Alist共享',
+                href: 'https://share.chirophy.online',
               },
               {
-                label: 'Netlify',
-                to: 'https://chirophy.netlify.app',
-              },
-              {
-                label: '静态',
-                to: 'https://chirophy.github.io',
+                label: '📡监控个der',
+                href: 'https://status.chirophy.online',
               },
               {
                 label: '3️⃣线线线',
