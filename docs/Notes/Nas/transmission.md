@@ -3,7 +3,8 @@ sidebar_position: 3
 keywords: [Transmission,群晖Nas,nas,transmission,transmission美化]
 ---
 # Transmission相关
-🗓2021-07-04  
+更新于 2023-04-09  
+初次记录于 🗓2021-07-04  
 继续折腾NAS
 
 ---
@@ -12,23 +13,6 @@ keywords: [Transmission,群晖Nas,nas,transmission,transmission美化]
 后来找到了**美化**相关内容。
 
 就顺带着记录一下：
-
-## 群晖NAS的第三方软件库
->https://packages.synocommunity.com (建议选择这个，支持HTTPS)  
-http://packages.pcloadletter.co.uk  
-http://www.cphub.net  
-http://synology.sysco.ch  
-http://packages.quadrat4.de  
-http://synology.acmenet.ru  
-http://cytec.us/spk  
-http://spk.naefmarco.ch/spkrepo/packages/  
-http://spk.nas-mirror.de/spkrepo/packages  
-http://spk.unzureichende.info/  
-http://packages.synocommunity.com/?beta=1  
-
-
-可以下载`transmission`等相关软件。
-
 ## 美化`transmission`的界面
 ### 安装
 ```sh showLineNumbers
@@ -96,3 +80,21 @@ chmod 774 /var/packages/transmission/target/share/transmission/web/* -R
 ```
 cp /var/packages/transmission/var/transmission.log /[地址]
 ```
+
+## 2023年4月9日更新
+### 说明
+`Transmission` 于 *2023年2月8日* 更新了 `4.0.0` 版本，详情请见 [Releases](https://github.com/transmission/transmission/releases/)  
+因为部分代码改动，造成了目前 `4.*` 版本无法再使用 **Web UI**，后面看了看修改的代码，发现仅是构建网页界面的文件夹命名有所改动，那么就好办了！  
+
+### 与众不同
+>由原本的 `web` 修改为 **目前的** `public_html`  
+
+### 方法
+使用 `WinSCP` 直接覆盖原文件  
+将 `transmission-web-control-1.6.1-update1` 中的 `src` 文件夹中的内容直接复制粘贴至 `/var/packages/transmission/target/share/transmission/public_html/` 中即可  
+修改完后记得修改对应权限  
+
+那么，经过如此这般之后，就大功告成了  
+
+### 成功
+![](https://img-1255648810.cos.ap-guangzhou.myqcloud.com/wiki/%E6%96%B0%E7%89%88tr.png)

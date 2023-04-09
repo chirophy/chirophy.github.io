@@ -1,4 +1,4 @@
-# 建立moon
+# 建立 moon
 ## `moon` 的作用
 `moon` 为中转服务器  
 ![](https://img-1255648810.cos.ap-guangzhou.myqcloud.com/wiki/moon前.png)  

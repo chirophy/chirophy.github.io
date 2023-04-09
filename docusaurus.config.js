@@ -190,15 +190,19 @@ const config = {
             items: [
               {
                 label:'👍ZSC常用网站',
-                to: '/zsclinks'
+                to: '/zsclinks',
               },
               {
                 label: '📑标签',
                 to: '/blog/tags/',
               },
               {
-                  label:'🌏时空地图',
-                  href:'https://www.allhistory.com/map'
+                label:'🔍安娜的档案',
+                href:'https://zh.annas-archive.org/',
+              },
+              {
+                label:'🌏时空地图',
+                href:'https://www.allhistory.com/map',
               },
               {
                 label:'📝汉语反向词典',
@@ -207,7 +211,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Power by ChiroPhy | <a href="https://beian.miit.gov.cn/">粤ICP备2020137394号</a> | Built with <a href="https://docusaurus.io/">Docusaurus</a>.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Power by <a href="https://chirophy.online/about">ChiroPhy</a> | <a href="https://beian.miit.gov.cn/">粤ICP备2020137394号</a> | Built with <a href="https://docusaurus.io/">Docusaurus</a>.`,
       },
       prism: {
         theme: lightCodeTheme,

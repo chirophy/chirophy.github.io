@@ -115,9 +115,10 @@ const sidebars = {
         type: 'generated-index',
       },
       items: [
+        'Notes/Nas/other-library',
         'Notes/Nas/zerotier',
-        'Notes/Nas/tunproblem',
         'Notes/Nas/transmission',
+        'Notes/Nas/tunproblem',
       ],
     },
     {
