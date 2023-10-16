@@ -20,7 +20,7 @@
  - ~~Mac~~
  - ~~Skill~~
  - ~~Elden Ring~~
-3. 翻译Docusaurus文档
+3. ~~翻译Docusaurus文档~~
 4. ~~把wiki作为主站~~
 5. 写一个法环wiki
  - ~~按照 `武器、防具、护符` 进行分类~~
