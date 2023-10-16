@@ -2,7 +2,7 @@
 sidebar_position: 3
 keywords: [Transmission,群晖Nas,nas,transmission,transmission美化]
 ---
-# Transmission相关
+# Transmission 相关
 更新于 2023-04-09  
 初次记录于 🗓2021-07-04  
 继续折腾NAS

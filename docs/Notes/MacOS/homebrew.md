@@ -3,7 +3,7 @@ sidebar_position: 2
 keywords: [Homebrew,homebrew,MAC,M1]
 ---
 
-# Homebrew相关  
+# Homebrew 相关  
 
 ## 快速安装
 ```bash

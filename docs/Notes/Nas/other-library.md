@@ -1,4 +1,4 @@
-# 群晖NAS第三方软件库
+# 群晖 NAS 第三方软件库
 >https://packages.synocommunity.com (建议选择这个，支持HTTPS)  
 http://packages.pcloadletter.co.uk  
 http://www.cphub.net  

@@ -18,7 +18,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Docusaurus教程',
-      collapsed: false,
+      //collapsed: false,
       link: {
         type: 'doc',
         id: 'Notes/Docusaurus/intro',
@@ -57,6 +57,25 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Skills',
+      link: {
+        type: 'generated-index',
+      },
+      items: [
+        'Notes/Skills/github',
+        'Notes/Skills/git',
+        'Notes/Skills/moon',
+        'Notes/Skills/ax86u',
+        'Notes/Skills/run',
+        'Notes/Skills/wiz',
+        'Notes/Skills/onemark',
+        'Notes/Skills/giscus',
+        'Notes/Skills/operator',
+        'Notes/Skills/r86s',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Linux',
       link: {
         type: 'generated-index',
@@ -64,48 +83,28 @@ const sidebars = {
       items: [
         'Notes/Linux/ssh',
         'Notes/Linux/fail2ban',
-        'Notes/Linux/硬盘对拷',
-        'Notes/Linux/dd命令',
-        'Notes/Linux/debian',
-        'Notes/Linux/Lighthouse',
         'Notes/Linux/docker',
         'Notes/Linux/rsshub',
         'Notes/Linux/samba',
+        'Notes/Linux/debian-pi-aarch64',
+        'Notes/Linux/nodejs',
+        'Notes/Linux/Lighthouse',
+        'Notes/Linux/硬盘对拷',
+        'Notes/Linux/dd命令',
+        'Notes/Linux/debian',
       ],
     },
     {
       type: 'category',
-      label: 'Skills',
+      label: 'PersonNas',
       link: {
-        type: 'generated-index',
+        type: 'doc',
+        id: 'Notes/PersonNas/intro',
       },
       items: [
-        'Notes/Skills/git',
-        'Notes/Skills/moon',
-        'Notes/Skills/github',
-        'Notes/Skills/ax86u',
-        'Notes/Skills/run',
-        'Notes/Skills/debian-pi-aarch64',
-        'Notes/Skills/wiz',
-        'Notes/Skills/onemark',
-        'Notes/Skills/giscus',
-      ],
-    },
-    {
-      type: 'category',
-      label: '杂七杂八',
-      link: {
-        type: 'generated-index',
-      },
-      items: [
-        'Notes/something/vs2013',
-        'Notes/something/AIDA64',
-        'Notes/something/emoji',
-        'Notes/something/string',
-        'Notes/something/MFC-problem',
-        'Notes/something/NW-ZX507',
-        'Notes/something/websitemodel',
-        'Notes/something/常用网站',
+        'Notes/PersonNas/hardware',
+        'Notes/PersonNas/software',
+        'Notes/PersonNas/others',
       ],
     },
     {
@@ -118,6 +117,7 @@ const sidebars = {
         'Notes/Nas/other-library',
         'Notes/Nas/zerotier',
         'Notes/Nas/transmission',
+        'Notes/Nas/qbittorrent',
         'Notes/Nas/tunproblem',
       ],
     },
@@ -133,12 +133,30 @@ const sidebars = {
         'Notes/MacOS/iTunes'
       ],
     },
+    {
+      type: 'category',
+      label: 'More',
+      link: {
+        type: 'generated-index',
+      },
+      items: [
+        'Notes/something/vs2013',
+        'Notes/something/AIDA64',
+        'Notes/something/emoji',
+        'Notes/something/NW-ZX507',
+        'Notes/something/websitemodel',
+        'Notes/something/常用网站',
+        'Notes/something/string',
+        'Notes/something/MFC-problem',
+      ],
+    },
   ],
 
   Game: [
     'Game/intro',
     'Game/pokemonSS',
     'Game/Dyson-Sphere-Program',
+    'Game/csgo',
     {
       type: 'category',
       label: '艾尔登法环',
@@ -179,6 +197,7 @@ const sidebars = {
         },
       ],
     },
+    'Game/lab',
   ],
 };
 

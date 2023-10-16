@@ -74,7 +74,7 @@ const config = {
           hideable: true,
         },
       },
-      metadata: [{name: 'keywords', content: 'chirophy,blog,javascript,typescript,python,nodejs,react,前端,后端'}],//seo
+      metadata: [{name: 'keywords', content: 'chirophy,ChiroPhy,phy,PHY,Phy'}],//seo
 
       //页面上方横条文字
       announcementBar: {
@@ -236,7 +236,7 @@ const config = {
         contextualSearch: true,
   
         // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
-        externalUrlRegex: 'https://wiki.chirophy.online',
+        externalUrlRegex: 'https://chirophy.online',
   
         // Optional: Algolia search parameters
         searchParameters: {},

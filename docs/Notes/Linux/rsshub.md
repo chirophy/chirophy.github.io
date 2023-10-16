@@ -1,4 +1,4 @@
-# 部署rsshub
+# 部署 rsshub
 
 ## 官方手册
 [RSSHub](https://docs.rsshub.app/)

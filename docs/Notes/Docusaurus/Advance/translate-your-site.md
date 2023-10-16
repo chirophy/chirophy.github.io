@@ -2,11 +2,11 @@
 sidebar_position: 2
 ---
 
-# Translate your site
+# 翻译网站
 
 Let's translate `docs/intro.md` to French.
 
-## Configure i18n
+## 配置i18n
 
 Modify `docusaurus.config.js` to add support for the `fr` locale:
 
@@ -19,7 +19,7 @@ module.exports = {
 };
 ```
 
-## Translate a doc
+## 翻译文档
 
 Copy the `docs/intro.md` file to the `i18n/fr` folder:
 
@@ -31,7 +31,7 @@ cp docs/intro.md i18n/fr/docusaurus-plugin-content-docs/current/intro.md
 
 Translate `i18n/fr/docusaurus-plugin-content-docs/current/intro.md` in French.
 
-## Start your localized site
+## 启动本地化网站
 
 Start your site on the French locale:
 
@@ -47,10 +47,9 @@ In development, you can only use one locale at a same time.
 
 :::
 
-## Add a Locale Dropdown
+## 添加本地化下拉列表
 
-To navigate seamlessly across languages, add a locale dropdown.
-
+要跨语言无缝导航，需要添加本地化下拉列表。  
 Modify the `docusaurus.config.js` file:
 
 ```js title="docusaurus.config.js"

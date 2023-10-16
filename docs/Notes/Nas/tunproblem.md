@@ -3,7 +3,7 @@ sidebar_position: 2
 keywords: [群晖Nas,nas,tun,内网穿透]
 ---
 
-# 解决群晖Nas无法使用TUN/TAP的问题
+# 解决群晖 Nas 无法使用 TUN/TAP 的问题
 在使用 `zerotier` 进行内网穿透时，会出现如下报错：
 ```
 ERROR: unable to configure virtual network port: could not open TUN/TAP device: No such file or directory

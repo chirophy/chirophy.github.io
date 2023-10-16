@@ -3,7 +3,7 @@ sidebar_position: 2
 keywords: [fail2ban,Linux]
 ---
 
-# fail2ban
+# Fail2ban
 前几天畅总跟我说：`你直接用ssh登录真的不怕扫吗？`  
 然后我就愣愣的去  
 ```bash

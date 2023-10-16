@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# 干得漂亮!
+# 基础步骤完成!
 
 你已经学会**基础Docusaurus**并可以对**initial template**做出一些修改.
 
@@ -14,8 +14,8 @@ Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://
 
 ## 下一步干什么嘞?
 
-- Read the [official documentation](https://docusaurus.io/).
-- Add a custom [Design and Layout](https://docusaurus.io/docs/styling-layout)
-- Add a [search bar](https://docusaurus.io/docs/search)
-- Find inspirations in the [Docusaurus showcase](https://docusaurus.io/showcase)
-- Get involved in the [Docusaurus Community](https://docusaurus.io/community/support)
+- 阅读[官方文档](https://docusaurus.io/zh-CN/).
+- 添加自定义[设计及布局](https://docusaurus.io/docs/styling-layout)
+- 添加[搜索按钮](https://docusaurus.io/docs/search)
+- 在[Docusaurus展示](https://docusaurus.io/showcase)中寻找灵感
+- 加入[Docusaurus社区](https://docusaurus.io/community/support)

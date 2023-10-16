@@ -1,4 +1,4 @@
-# 建立 moon
+# 建立 MOON 通道
 ## `moon` 的作用
 `moon` 为中转服务器  
 ![](https://img-1255648810.cos.ap-guangzhou.myqcloud.com/wiki/moon前.png)  
@@ -28,17 +28,17 @@ Created symlink from /etc/systemd/system/multi-user.target.wants/zerotier-one.se
 安装完毕后就需要我们建立 `moon` 了  
 
 ## 建立 `moon`  
-1. 前往安装路径  
+### 1. 前往安装路径  
 ```sh
 cd /var/lib/zerotier-one
 ```
 
-2. 生成及修改 `moon.json`  
+### 2. 生成及修改 `moon.json`  
 ```sh
 zerotier-idtool initmoon identity.public >>moon.json
 ```
 
-3. `moon.json`文件  
+### 3. `moon.json`文件  
 ```sh
 {
  "id": "addressID",
@@ -58,7 +58,7 @@ zerotier-idtool initmoon identity.public >>moon.json
 其中 `id` 为**云服务器**在 `ZeroTier` 中的 `id`  
 修改 `stableEndpoints` 为**云服务器**的公网的 `ip`  
 
-4. 修改 `stableEndpoints`  
+### 4. 修改 `stableEndpoints`  
 ```sh
 "stableEndpoints": ["IP/9993"]
 ```
@@ -69,7 +69,7 @@ zerotier-idtool initmoon identity.public >>moon.json
 
 :::
 
-5. 生成签名文件  
+### 5. 生成签名文件  
 修改完 `moon.json` 后执行  
 ```sh
 zerotier-idtool genmoon moon.json
@@ -78,7 +78,7 @@ zerotier-idtool genmoon moon.json
 文件名为： 000000[addressID].moon  
 
 ## 将 `moon` 节点加入网络
-1. 方法一  
+### 1. 方法一  
 在**云服务器**的 `ZeroTier` 目录中建立子文件夹 `moons.d`  
 将生成的 `000000[addressID].moon` 拷贝进 `moons.d` 文件夹中  
 重启 `ZeroTier` 服务 or 重启设备  
@@ -91,7 +91,7 @@ Linux: /var/lib/zerotier-one
 FreeBSD/OpenBSD: /var/db/zerotier-one
 ```
 
-2. 方法二  
+### 2. 方法二  
 在其他机器上执行  
 ```sh
 zerotier-cli orbit [addressID] [addressID]

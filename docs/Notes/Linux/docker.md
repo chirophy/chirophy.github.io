@@ -1,14 +1,8 @@
-# Docker的基本操作
+# Docker 基本操作
 `Docker` 主要由 `image(镜像)`、`container(容器)`、`repository(仓库)` 三大块组成  
 
-:::tip 
-
-🍹当前文档正在制作中...
-
-:::
-
 ## 安装
-1. 官方脚本安装(特别推荐！)  
+### 1. 官方脚本安装(特别推荐！)  
 安装命令如下：
 ```sh
 curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
@@ -18,7 +12,7 @@ curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
 curl -sSL https://get.daocloud.io/docker | sh
 ```
 
-2. 使用 `repository` 仓库文件安装  
+### 2. 使用 `repository` 仓库文件安装  
 ```sh
 # 设置仓库
 sudo yum install -y yum-utils
@@ -37,7 +31,7 @@ sudo systemctl start docker
 sudo docker run hello-world
 ```
 
-3. 使用 `rpm` 包方式安装  
+### 3. 使用 `rpm` 包方式安装  
 从官网 **[下载](https://download.docker.com/linux/centos/)** 对应版本的 `rpm` 包进行安装  
 可通过 `wget` 命令或者 `curl` 命令下载该安装包到指定的文件夹下  
 ```sh
@@ -50,7 +44,7 @@ sudo docker run hello-worl
 ```
 
 ## 卸载
-1. 卸载旧版本
+### 1. 卸载旧版本
 ```sh
 sudo yum remove docker \
                   docker-client \
@@ -62,7 +56,7 @@ sudo yum remove docker \
                   docker-engine
 ```
 
-2. 强制卸载
+### 2. 强制卸载
 ```sh
 # 卸载
 sudo yum remove docker-ce docker-ce-cli containerd.io
@@ -152,15 +146,17 @@ docker rm -f [容器ID]
 - 网易：https://hub-mirror.c.163.com/  
 - 阿里云：https://<你的ID>.mirror.aliyuncs.com  
 - 七牛云：https://reg-mirror.qiniu.com  
-- 对于使用 `systemd` 的系统，请在 `/etc/docker/daemon.json` 中写入如下内容（如果文件不存在请新建该文件）：  
+1. 对于使用 `systemd` 的系统，请在 `/etc/docker/daemon.json` 中写入如下内容（如果文件不存在请新建该文件）：  
 ```sh
 {"registry-mirrors":["https://reg-mirror.qiniu.com/"]}
 ```
-之后重新启动服务
+
+2. 重新启动服务
 ```sh
 systemctl restart docker
 ```
-检查加速镜像是否生效
+
+3. 检查加速镜像是否生效
 ```sh
 docker info
 ```

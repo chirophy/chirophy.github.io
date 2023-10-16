@@ -3,7 +3,7 @@ sidebar_position: 1
 keywords: [ZeroTier,zt,群晖NAS,nas,frp,内网穿透]
 ---
 
-# zerotier相关
+# zerotier 相关
 
 :::tip 
 

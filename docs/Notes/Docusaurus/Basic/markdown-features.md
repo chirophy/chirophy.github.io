@@ -2,11 +2,11 @@
 sidebar_position: 4
 ---
 
-# Markdown Features
+# Markdown特性
 
-Docusaurus supports **[Markdown](https://daringfireball.net/projects/markdown/syntax)** and a few **additional features**.
+Docusaurus 支持 **[Markdown](https://daringfireball.net/projects/markdown/syntax)** 和一些 **附加功能**.
 
-## Front Matter
+## 扉页
 
 Markdown documents have metadata at the top called [Front Matter](https://jekyllrb.com/docs/front-matter/):
 
@@ -25,7 +25,7 @@ slug: /my-custom-url
 Markdown text with [links](./hello.md)
 ```
 
-## Links
+## 链接
 
 Regular Markdown links are supported, using url paths or relative file paths.
 
@@ -39,7 +39,7 @@ Let's see how to [Create a page](./create-a-page.md).
 
 **Result:** Let's see how to [Create a page](./create-a-page.md).
 
-## Images
+## 图片
 
 Regular Markdown images are supported.
 
@@ -53,7 +53,7 @@ You can use absolute paths to reference images in the static directory (`static/
 
 You can reference images relative to the current file as well, as shown in [the extra guides](../Advance/manage-docs-versions.md).
 
-## Code Blocks
+## 代码
 
 Markdown code blocks are supported with Syntax highlighting.
 
@@ -71,7 +71,7 @@ function HelloDocusaurus() {
 }
 ```
 
-## Admonitions
+## 提醒
 
 Docusaurus has a special syntax to create admonitions and callouts:
 
@@ -99,7 +99,7 @@ This action is dangerous
 
 :::
 
-## MDX and React Components
+## MDX 和 React 组件
 
 [MDX](https://mdxjs.com/) can make your documentation more **interactive** and allows using any **React components inside Markdown**:
 

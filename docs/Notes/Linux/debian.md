@@ -2,11 +2,11 @@
 sidebar_position: 5
 keywords: [Debian,Linux]
 ---
-# Debian使用记录
+# Debian 语言设置
 🗓2020-08-06  
 下午搞公司的服务器搞的终端打不开了23333  
-然后发现居然是之前装输入法引发的问题，需要改一下语言设置，然后设置里面居然没有language选项，那么就...  
-打开locale文件：  
+然后发现居然是之前装输入法引发的问题，需要改一下语言设置，然后设置里面居然没有 `language` 选项，那么就...  
+打开 `locale` 文件：  
 ```sh
 vi /etc/default/locale
 ```

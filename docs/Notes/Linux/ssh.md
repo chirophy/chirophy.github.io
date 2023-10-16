@@ -3,7 +3,7 @@ sidebar_position: 1
 keywords: [SSH]
 ---
 
-# SSH
+# ssh
 
 ## 查看ssh登陆记录
 - 在`/var/log/secure`可以看到登陆的情况
